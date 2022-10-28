@@ -20,9 +20,9 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   // input
-  const length = parseInt(document.getElementById("length-number").value)
-  const width = parseInt(document.getElementById("width-number").value)
-  const height = parseInt(document.getElementById("height-number").value)
+  const length = parseFloat(document.getElementById("length-number").value)
+  const width = parseFloat(document.getElementById("width-number").value)
+  const height = parseFloat(document.getElementById("height-number").value)
 
   //process
   const volume = ((length * width * height) / 3) * height
