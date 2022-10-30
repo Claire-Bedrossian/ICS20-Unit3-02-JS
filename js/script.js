@@ -25,7 +25,7 @@ function myButtonClicked() {
   const height = parseFloat(document.getElementById("height-number").value)
 
   //process
-  const volume = ((length * width * height) / 3) * height
+  const volume = (length * width * height) / 3
 
   // output
   document.getElementById("volume").innerHTML =
