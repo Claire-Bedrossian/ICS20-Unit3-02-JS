@@ -4,9 +4,79 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="Volume of a Right Rectangular Pyramid" style="swimlane;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="60" width="480" height="330" as="geometry"/>
+                <mxCell id="7" value="Volume of a Right Rectangular Pyramid" style="swimlane;startSize=30;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="30" width="550" height="510" as="geometry">
+                        <mxRectangle x="180" y="90" width="260" height="23" as="alternateBounds"/>
+                    </mxGeometry>
                 </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="7">
+                    <mxGeometry y="340" width="160" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="170" width="160" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="250" width="160" height="10" as="geometry"/>
+                </mxCell>
+                <UserObject label="Height here..." placeholders="1" id="11">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="10" y="230" width="160" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Width here..." placeholders="1" id="12">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="10" y="140" width="160" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="7" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Length here..." placeholders="1" id="13">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry y="300" width="160" height="50" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Height" placeholders="1" name="Variable" id="15">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="40" y="200" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Width" placeholders="1" name="Variable" id="16">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="40" y="120" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Length" placeholders="1" name="Variable" id="17">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="40" y="280" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Enter the dimensions below..." placeholders="1" name="Variable" id="20">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry y="70" width="250" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Volume = (Length x Width x Height) /3&amp;nbsp;" placeholders="1" name="Variable" id="21">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry y="430" width="250" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="22" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="370" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="Calculate" placeholders="1" name="Variable" id="23">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="30" y="380" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="24" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="7">
+                    <mxGeometry x="260" y="120" width="210" height="220" as="geometry"/>
+                </mxCell>
+                <UserObject label="Triangle Image&amp;nbsp;" placeholders="1" name="Variable" id="26">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
+                        <mxGeometry x="270" y="245" width="200" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
             </root>
         </mxGraphModel>
     </diagram>
