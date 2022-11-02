@@ -28,9 +28,6 @@
                         <mxGeometry x="10" y="140" width="160" height="50" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="7" source="13" target="15">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <UserObject label="Length here..." placeholders="1" id="13">
                     <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="7">
                         <mxGeometry y="300" width="160" height="50" as="geometry"/>
